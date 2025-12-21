@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f6f7;
+}
+
+h1 {
+    font-size: 20px;
+    border-bottom: 2px solid #4da3ff;
+    padding-bottom: 5px;
+}
+
+.container {
+    background: #f0f3f4;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 25%;
+    padding: 6px;
+    margin-top: 4px;
+}
+
+button {
+    margin-top: 12px;
+    padding: 8px 15px;
+    background-color: #4da3ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c82e0;
+}
+
+.output-box {
+    border: 1px dashed #999;
+}
+
+.student {
+    margin-bottom: 10px;
+}
+
+.eligible {
+    color: green;
+    font-weight: bold;
+}
+
+.not-eligible {
+    color: red;
+    font-weight: bold;
+}
+
+.student button {
+    margin-top: 5px;
+    padding: 4px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.student button:hover {
+    background-color: #ff1900;
+}
